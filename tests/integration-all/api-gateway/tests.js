@@ -12,6 +12,7 @@ const { createRestApi, deleteRestApi, getResources } = require('../../utils/api-
 
 const CF = new AWS.CloudFormation({ region });
 
+//Descripbe Gateway
 describe('AWS - API Gateway Integration Test', () => {
   let serviceName;
   let endpoint;
