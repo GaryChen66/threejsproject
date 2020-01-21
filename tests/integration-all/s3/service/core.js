@@ -4,6 +4,7 @@
 // eslint-disable-next-line
 const { log } = require('./utils');
 
+//Define Minimal function
 function minimal(event, context, callback) {
   const functionName = 'minimal';
   const response = { message: `Hello from S3! - (${functionName})`, event };
