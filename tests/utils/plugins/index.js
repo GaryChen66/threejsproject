@@ -13,6 +13,7 @@ class ServerlessPlugin {
   }
 }
 
+//Plugin Install
 function installPlugin(installDir, PluginClass) {
   const pluginPkg = { name: path.basename(installDir), version: '0.0.0' };
   const className = new PluginClass().constructor.name;
